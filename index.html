@@ -23,7 +23,7 @@
   <body>
     <header class="header">
       <div class="container header-box">
-        <nav>
+        <nav class="header-nav">
           <a href="" class="logo link"
             ><span class="logo-web">Web</span
             ><span class="logo-studio-black">Studio</span></a
@@ -39,13 +39,13 @@
               <a href="" class="link">Контакты</a>
             </li>
           </ul>
+          <div class="auth-nav">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </div>
         </nav>
-        <div class="auth-nav">
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
-        </div>
       </div>
     </header>
     <main>
@@ -59,28 +59,28 @@
         <div class="container">
           <h2 class="section-title visually-hidden">Особенности</h2>
           <ul class="list speciality">
-            <li>
+            <li class="speciality-items">
               <h3 class="section-title-description">Внимание к деталям</h3>
               <p class="description">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="speciality-items">
               <h3 class="section-title-description">Пунктуальность</h3>
               <p class="description">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="speciality-items">
               <h3 class="section-title-description">Планирование</h3>
               <p class="description">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="speciality-items">
               <h3 class="section-title-description">Современные технологии</h3>
               <p class="description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -94,7 +94,7 @@
         <div class="container">
           <h2 class="section-title about">Чем мы занимаемся</h2>
           <ul class="list about-list">
-            <li>
+            <li class="about-item">
               <a href=""
                 ><img
                   src="./images/box_1.jpg"
@@ -102,7 +102,7 @@
                   width="370"
               /></a>
             </li>
-            <li>
+            <li class="about-item">
               <a href=""
                 ><img
                   src="./images/box_2.jpg"
@@ -110,7 +110,7 @@
                   width="370"
               /></a>
             </li>
-            <li>
+            <li class="about-item">
               <a href=""
                 ><img
                   src="./images/box_3.jpg"
@@ -123,7 +123,7 @@
       </section>
       <section class="section our-team">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="section-title titel-team">Наша команда</h2>
           <ul class="list team-list">
             <li class="card-team">
               <img src="./images/team_card_1.jpg" alt="Фото_1" width="270" />

@@ -102,9 +102,29 @@ ul {
 
 /*------------------HEADER------------------*/
 
+.site-nav li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-box {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.auth-nav {
+  margin-left: auto;
+}
+
+.auth-nav .link {
+  margin-left: 50px;
+}
+
+.site-nav {
+  display: flex;
 }
 
 .site-nav .link,
@@ -150,6 +170,8 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+
+  margin-right: 93px;
 }
 
 .logo .logo-studio-black:hover,
@@ -178,7 +200,7 @@ ul {
 }
 
 .btn-hero {
-  margin-left: 500px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -190,8 +212,7 @@ ul {
   color: var(--secondary-text-color);
   max-width: 696px;
   padding-bottom: 30px;
-  margin-left: 252px;
-  margin-right: 252px;
+  margin: 0 auto;
 }
 
 /*------------------SPECIALITY------------------*/
@@ -203,7 +224,6 @@ ul {
   text-align: center;
 
   color: var(--title-text-color);
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -227,6 +247,13 @@ ul {
 
 .speciality {
   padding-top: 94px;
+  display: flex;
+  margin-right: -30px;
+}
+
+.speciality-items {
+  width: calc(100% / 4- 30px);
+  margin-right: 30px;
 }
 
 /*------------------ABOUT------------------*/
@@ -237,6 +264,13 @@ ul {
 
 .about-list {
   padding-bottom: 94px;
+  display: flex;
+  margin-right: -30;
+}
+
+.about-item {
+  width: calc(100% / 3- 30px);
+  margin-right: 30px;
 }
 
 /*------------------OUR-TEAM------------------*/
@@ -247,6 +281,12 @@ ul {
 
 .team-list {
   padding-bottom: 94px;
+  display: flex;
+  margin-left: -30px;
+}
+
+.titel-team {
+  padding-top: 94px;
 }
 
 .card-team {
@@ -254,6 +294,8 @@ ul {
   text-align: center;
   background-color: var(--secondary-text-color);
   border-radius: 0px 0px 4px 4px;
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
 }
 
 .text-box {
@@ -276,7 +318,6 @@ ul {
   line-height: 1.18;
   text-align: center;
 }
-
 
 /*------------------PORTFOLIO------------------*/
 
@@ -306,11 +347,9 @@ ul {
 }
 
 .project-filter {
- 
   padding: 20px 24px;
   max-width: 322px;
 }
-
 
 /*------------------FOOTER------------------*/
 
