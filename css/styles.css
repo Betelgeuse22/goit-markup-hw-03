@@ -37,7 +37,7 @@ ul {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .visually-hidden {
@@ -104,6 +104,10 @@ ul {
 
 .site-nav li:not(:last-child) {
   margin-right: 50px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header-box {
@@ -321,15 +325,36 @@ ul {
 
 /*------------------PORTFOLIO------------------*/
 
-.filter-list {
+.filter-btn-list {
   padding-top: 94px;
   padding-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* .portfolio-box {
+  padding-bottom: 94px;
+} */
+.section .container {
+  padding-bottom: 94px;
+}
+
+.filter-btn:not(:last-child) {
+  margin-right: 8px;
 }
 
 .filter-item {
-  max-width: 370px;
+  display: flex;
   background: var(--secondary-text-color);
-  border: 1px solid #eeeeee;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.card-filter img {
+  display: block;
+  width: 100%;
 }
 
 .section-project {
@@ -347,8 +372,16 @@ ul {
 }
 
 .project-filter {
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
-  max-width: 322px;
+  flex-basis: 322px;
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
 /*------------------FOOTER------------------*/
