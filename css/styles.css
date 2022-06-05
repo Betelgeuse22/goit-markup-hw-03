@@ -76,6 +76,7 @@ ul {
   color: #ffffff;
   min-width: 200px;
   padding: 10px 32px;
+  margin: 0 auto;
 }
 
 [type='button'] {
@@ -107,13 +108,11 @@ ul {
 }
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
-.header-box {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
 .header-nav {
   display: flex;
   align-items: center;
@@ -197,14 +196,9 @@ ul {
 
 .hero {
   background-color: #2f303a;
-}
-
-.hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
   text-align: center;
-}
-
-.btn-hero {
-  margin: 0 auto;
 }
 
 .hero-title {
@@ -215,8 +209,7 @@ ul {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   max-width: 696px;
-  padding-bottom: 30px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 /*------------------SPECIALITY------------------*/
@@ -228,7 +221,11 @@ ul {
   text-align: center;
 
   color: var(--title-text-color);
-  margin-bottom: 50px;
+}
+
+.section-speciality {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title-description {
@@ -246,11 +243,9 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   max-width: 270px;
-  padding-bottom: 94px;
 }
 
 .speciality {
-  padding-top: 94px;
   display: flex;
   margin-right: -30px;
 }
@@ -265,9 +260,11 @@ ul {
 .about {
   margin-bottom: 50px;
 }
+.section-about {
+  padding-bottom: 94px;
+}
 
 .about-list {
-  padding-bottom: 94px;
   display: flex;
   margin-right: -30;
 }
@@ -281,16 +278,17 @@ ul {
 
 .our-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
-  padding-bottom: 94px;
   display: flex;
   margin-left: -30px;
 }
 
 .titel-team {
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 .card-team {
@@ -326,18 +324,10 @@ ul {
 /*------------------PORTFOLIO------------------*/
 
 .filter-btn-list {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   display: flex;
   justify-content: center;
-}
-
-/* .portfolio-box {
-  padding-bottom: 94px;
-} */
-.section .container {
-  padding-bottom: 94px;
 }
 
 .filter-btn:not(:last-child) {
@@ -384,10 +374,16 @@ ul {
   margin-bottom: -30px;
 }
 
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*------------------FOOTER------------------*/
 
 .footer {
   background-color: #2f303a;
+  padding: 60px 0px;
 }
 
 .address {
@@ -395,12 +391,12 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  padding-top: 20px;
-  padding-bottom: 60px;
   max-width: 231px;
+  margin-top: 20px;
 }
 .address a {
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .map {
@@ -409,8 +405,5 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
-}
-
-.footer-box {
-  padding-top: 60px;
+  margin-bottom: 9px;
 }
